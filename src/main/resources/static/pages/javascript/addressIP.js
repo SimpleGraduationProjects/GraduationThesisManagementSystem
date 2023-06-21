@@ -1,4 +1,4 @@
-const ipAddress = "http://127.0.0.1:9199/";
+const ipAddress = "http://localhost:9199/";
 
 function errorHandle(error) {
     if("loginAgain" == error.responseText){
